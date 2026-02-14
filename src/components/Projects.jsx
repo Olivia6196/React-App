@@ -3,11 +3,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import Portfolio from "../assets/Portfolio pic.png";
-import Todo from "../assets/Todo pics .png";
-import Quiz from "../assets/quiz app.png";
-import Branding from "../assets/Branding Agency.png";
-import Digital from "../assets/Digital Clock.png";
+import Portfolio from "../assets/Portfolio_pic.png";
+import Todo from "../assets/Todo_pics .png";
+import Quiz from "../assets/quiz_app.png";
+import Branding from "../assets/branding_agency.png";
+import Digital from "../assets/digital_clock.png";
 
 export default function Project() {
   const projects = [

@@ -1,6 +1,6 @@
-import Web from "../assets/web design.png"
-import Frontend from "../assets/frontend pic.png"
-import Ux from "..//assets/ux design.png"
+import Web from "../assets/web_design.png"
+import Frontend from "../assets/frontend_pic.png"
+import Ux from "..//assets/ux_design.png"
 export default function Services(){
     return(
         <>

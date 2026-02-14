@@ -1,4 +1,4 @@
-import Pink from "../assets/laptop pink.jpg"
+import Pink from "../assets/laptop_pink.jpg"
 export default function Hero(){
     return(
         <>
