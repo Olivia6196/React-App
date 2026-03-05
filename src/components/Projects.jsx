@@ -23,7 +23,7 @@ export default function Project() {
   ];
 
   return (
-    <section id="Projects" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-top pb-12">
+    <section id="Projects" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-top pb-12 px-20 lg:px-0">
       <h2 className="text-center text-3xl font-semibold pb-8 drop-shadow-[0_0_4px_#ec4899]">My Project</h2>
 
       <div className="relative max-w-5xl mx-auto">
@@ -35,7 +35,7 @@ export default function Project() {
           pagination={{ clickable: true }}
           autoplay={{ delay: 4000, disableOnInteraction: false }}
           breakpoints={{
-            640: { slidesPerView: 1 },
+            350: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
           }}

@@ -10,6 +10,12 @@ export default {
         livia:['"Dancing Script"', 'cursive']
       }
     },
+     screens: {
+      sm: "350px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+    },
   },
   plugins: [],
 }

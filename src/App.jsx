@@ -10,15 +10,13 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <>
-    <body className="overflow-x-hidden">
-      <Navbar />
+     <Navbar />
       <Hero />
       <About />
       <Services />
       <Projects />
       <Contact />
       <Footer />
-    </body>
     </>
   )
 }

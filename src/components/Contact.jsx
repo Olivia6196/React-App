@@ -1,11 +1,11 @@
 export default function Contact(){
     return(
         <>
-        <section id="Contact" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-center">
+        <section id="Contact" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-center pb-10">
          <h2 className="text-center text-3xl font-semibold pb-8 drop-shadow-[0_0_4px_#ec4899] pt-8">Get In Touch</h2>
          <p className="text-center text-2xl pb-20 font-semibold font-livia">Let's build and turn your ideas into reality!</p>
-         <div className="flex justify-center gap-56">
-         <div className="">
+         <div className="flex flex-col-reverse lg:flex-row px-48 lg:px-0 justify-center gap-20 lg:gap-56 ">
+         <div className="lg:pt-12 text-center lg:text-left">
          <p className="pb-3">Reach Out at:</p>
          <p className="text-lg"><i class='bx bx-envelope align-middle' ></i>oliviaifebuche@gmail.com</p>
          <p className="text-lg"><i class='bx bxs-phone-call align-middle'></i>+234-810-412-6196</p>
@@ -17,17 +17,17 @@ export default function Contact(){
             <a href="https://www.facebook.com/abel.olivi.5" target="_blank" rel="noopener noreferrer"><i class='bx bxl-facebook text-2xl text-white bg-blue-500 py-[0.2vw] px-2 rounded-full' ></i></a>
          </div>
          <div className="pb-8">
-            <form action="mailto:ifebuchechukwuomeje@gmail.com" method="post">
+            <form action="mailto:ifebuchechukwuomeje@gmail.com" method="post" enctype="text/plain" className="flex flex-col items-center">
                     <fieldset>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required className="p-3 border-2 border-red-300 rounded-lg outline-none "/>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required className="p-3 border-2 border-red-300 rounded-lg outline-none w-72"/>
                         <br /><br />
                         <input type="tel" id="phone" name="phone" maxlength="11" placeholder="Your Phone Number"
-                            required  className="p-3 border-2 border-red-300 rounded-lg outline-none "/>
+                            required  className="p-3 border-2 border-red-300 rounded-lg outline-none w-72"/>
                                  <br /><br />
-                        <input type="email" id="email" name="email" placeholder="Your Email" required className="p-3 border-2 border-red-300 rounded-lg outline-none "/>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required className="p-3 border-2 border-red-300 rounded-lg outline-none w-72"/>
                         <br /><br />
                         <textarea rows="4" cols="35" name="Message" id="Message" placeholder="Leave a Message"
-                            required className="p-3 border-2 border-red-300 rounded-lg outline-none "></textarea>
+                            required className="p-3 border-2 border-red-300 rounded-lg outline-none w-72"></textarea>
                     </fieldset> 
                     <br />
                     <button className="mt-6 bg-red-300 text-white px-6 py-3 rounded-lg font-semibold shadow-lg shadow-pink-400/50 hover:bg-transparent hover:text-red-300 hover:border hover:border-red-300 transition-all duration-300">Submit</button>
