@@ -30,14 +30,14 @@ export default function Project() {
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={30}
+          navigation={true}
           slidesPerView={1} // mobile default
-          navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 4000, disableOnInteraction: false }}
           breakpoints={{
-            350: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
+            350: { slidesPerView: 1, navigation: false,},
+            768: { slidesPerView: 2, navigation: false, },
+            1024: { slidesPerView: 3, navigation: true, },
           }}
           className="py-10"
         >
