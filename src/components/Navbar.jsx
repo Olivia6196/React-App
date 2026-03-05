@@ -91,7 +91,7 @@ export default function Navbar(){
                 <div className="flex flex-col gap-4">
                   <a
                     href="#Contact"
-                    className="py-4 px-6 bg-blue-600 text-white text-center rounded-xl font-semibold hover:bg-blue-700 transition"
+                    className="py-4 px-6 bg-red-300 text-white text-center rounded-xl font-semibold hover:bg-red-400 transition"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Get in Touch
