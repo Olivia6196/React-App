@@ -8,6 +8,8 @@ import Todo from "../assets/Todo_pics .png";
 import Quiz from "../assets/quiz_app.png";
 import Branding from "../assets/branding_agency.png";
 import Digital from "../assets/digital_clock.png";
+import Weather from "../assets/weather_app.png";
+import Lxxi from "../assets/LXXI.png";
 
 export default function Project() {
   const projects = [
@@ -16,13 +18,15 @@ export default function Project() {
     { img: Quiz, title: "Quiz App", link: "https://olivia6196.github.io/Quiz-App/" },
     { img: Branding, title: "Branding Agency", link: "https://olivia6196.github.io/Branding-Agency/" },
     { img: Digital, title: "Digital Clock", link: "https://olivia6196.github.io/Digital-Clock/" },
+    { img: Weather, title: "Weather App", link: "https://weather-app-theta-livid-30.vercel.app"},
+    { img: Lxxi, title: "LXXI Company", link: "https://lxxi.vercel.app"}
   ];
 
   return (
     <section id="Projects" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-top pb-12">
       <h2 className="text-center text-3xl font-semibold pb-8 drop-shadow-[0_0_4px_#ec4899]">My Project</h2>
 
-      <div className="relative max-w-6xl mx-auto">
+      <div className="relative max-w-5xl mx-auto">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={30}
