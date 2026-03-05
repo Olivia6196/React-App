@@ -15,7 +15,7 @@ export default function Navbar(){
     return(
         <>
         <nav className="bg-white flex justify-around p-2.5 shadow-xl fixed top-0 w-full z-10">
-            <div className="font-livia text-xl drop-shadow-lg text-red-300">
+            <div className="font-livia text-xl drop-shadow-lg text-red-300 pt-3 lg:pt-0">
                 <em>LiviaCodes</em>
             </div>
             <ul className="px-6 hidden lg:flex text-base">

@@ -23,10 +23,10 @@ export default function Project() {
   ];
 
   return (
-    <section id="Projects" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-top pb-12 px-20 lg:px-0">
+    <section id="Projects" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-top pb-12 px-10 md:px-20 lg:px-0">
       <h2 className="text-center text-3xl font-semibold pb-8 drop-shadow-[0_0_4px_#ec4899]">My Project</h2>
 
-      <div className="relative max-w-5xl mx-auto">
+      <div className="relative w-[80vw] md:w-full max-w-5xl mx-auto">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={30}

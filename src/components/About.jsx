@@ -26,8 +26,8 @@ export default function About(){
         repeat={Infinity}
         className="block text-center mx-auto text-2xl text-red-400 pb-5 font-semibold font-livia"
       />
-        <p className="text-center pb-12 text-sm lg:text-base w-[85vw] md:w-full"> I am a Frontend Developer with a strong interest in creating clean, responsive, and user-friendly websites. <br /> I love turning ideas into reality through code.</p>
-        <div className="justify-center pb-8 grid grid-cols-2 md:grid-cols-3 mx-20 lg:mx-28 gap-12 lg:gap-8">
+        <p className="text-center pb-12 text-sm lg:text-base w-[85vw] md:w-full pl-10 lg:pl-0"> I am a Frontend Developer with a strong interest in creating clean, responsive, and user-friendly websites. <br /> I love turning ideas into reality through code.</p>
+        <div className="justify-center pb-8 grid grid-cols-2 md:grid-cols-3 mx-5 md:mx-20 lg:mx-28 gap-12 lg:gap-8">
               {skills.map((skill, index) => (
                 <button
                   key={index}

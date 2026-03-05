@@ -31,7 +31,7 @@ export default function Services(){
         <>
         <section id="Services" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-center pt-20 pb-32">
         <h2 className="text-center text-3xl font-semibold pb-20 drop-shadow-[0_0_4px_#ec4899]">What I Do</h2>
-        <div className="flex flex-col w-[65vw] lg:w-full lg:flex-row justify-center gap-8 text-center px-12vw lg:px-0 mx-auto">
+        <div className="flex flex-col w-[82vw] md:w-[65vw] lg:w-full lg:flex-row justify-center gap-8 text-center  md:px-12 lg:px-0 mx-auto">
             {projects.map((project, index) => (
                 <div
                     key={index}
