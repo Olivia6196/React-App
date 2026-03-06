@@ -13,7 +13,7 @@ import Lxxi from "../assets/LXXI.png";
 
 export default function Project() {
   const projects = [
-    { img: Portfolio, title: "Portfolio Website", link: "https://olivia6196.github.io/Fabulous/" },
+    { img: Portfolio, title: "Portfolio Website", link: "https://react-app-si4o.vercel.app" },
     { img: Todo, title: "My To-Do List App", link: "https://olivia6196.github.io/To-Do-List-/" },
     { img: Quiz, title: "Quiz App", link: "https://olivia6196.github.io/Quiz-App/" },
     { img: Branding, title: "Branding Agency", link: "https://olivia6196.github.io/Branding-Agency/" },
