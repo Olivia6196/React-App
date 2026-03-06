@@ -13,7 +13,7 @@ export default function Contact(){
             <a href="https://www.linkedin.com/in/olivia-ifebuchechukwu-omeje-36011b355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin py-1 px-2 rounded-xl bg-[#0a66c2] text-white text-2xl mr-1'></i></a>
             <a href="https://x.com/uchelivia?t=t-gwjy71oZWqBT0i990qQQ&s=09" target="_blank" rel="noopener noreferrer"><i class='bx bxl-twitter text-xl text-white bg-[#1da1f2] py-[0.28vw] px-2 rounded-full mr-1'></i></a>
             <a href="https://www.tiktok.com/@olivia_codes?_t=ZS-8zSV4ZzaGvq&_r=1" target="_blank" rel="noopener noreferrer"><i class='bx bxl-tiktok text-xl text-white bg-black py-[0.28vw] px-2 rounded-full mr-1' ></i></a>
-            <a href="https://www.instagram.com/olivia_codes" target="_blank" rel="noopener noreferrer" className="text-white bg-gradient-to-tr from-yellow-300 via-red-400 to-purple-400 pt-[2.5vw] lg:pt-[0.8vw] pb-1 px-2 rounded-xl mr-1"><i class='bx bxl-instagram text-2xl' ></i></a>
+            <a href="https://www.instagram.com/olivia_codes" target="_blank" rel="noopener noreferrer" className="text-white bg-gradient-to-tr from-yellow-300 via-red-400 to-purple-400 pt-[2.5vw] md:pt-[0.8vw] pb-1 px-2 rounded-xl mr-1"><i class='bx bxl-instagram text-2xl' ></i></a>
             <a href="https://www.facebook.com/abel.olivi.5" target="_blank" rel="noopener noreferrer"><i class='bx bxl-facebook text-2xl text-white bg-blue-500 py-[0.2vw] px-2 rounded-full' ></i></a>
          </div>
          <div className="pb-8">

@@ -14,7 +14,7 @@ export default function Navbar(){
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     return(
         <>
-        <nav className="bg-white flex justify-around p-2.5 shadow-xl fixed top-0 w-full z-10">
+        <nav className="bg-white flex justify-center gap-[52vw] md:gap-[70vw] lg:gap-[35vw] p-2.5 shadow-xl fixed top-0 w-full z-10">
             <div className="font-livia text-xl drop-shadow-lg text-red-300 pt-3 lg:pt-0">
                 <em>LiviaCodes</em>
             </div>
