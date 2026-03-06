@@ -7,12 +7,14 @@ import "boxicons/css/boxicons.min.css"
 import "./index.css"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import Skill from "./components/Skill"
 function App() {
   return (
     <>
      <Navbar />
       <Hero />
       <About />
+      <Skill />
       <Services />
       <Projects />
       <Contact />

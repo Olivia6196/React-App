@@ -1,20 +1,32 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 
 const navItems= [
     { label: "Home", href:"#"},
     { label: "About", href:"#About"},
+    { label: "Skill" , href: "#Skill"},
     { label: "Services", href:"#Services"},
     { label: "Projects", href:"#Projects"},
-    { label: "Contact", href:"#Contact"}
+    { label: "Contact", href:"#Contact"},
 ];
 
 export default function Navbar(){
+     const [scrolled, setScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 70);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
     return(
         <>
-        <nav className="bg-white flex justify-center gap-[52vw] md:gap-[70vw] lg:gap-[35vw] p-2.5 shadow-xl fixed top-0 w-full z-10">
+        <nav className={`flex justify-center gap-[52vw] md:gap-[70vw] lg:gap-[35vw] p-3 fixed top-0 w-full z-20  transition-all duration-300 ${scrolled ? "bg-white shadow-lg pt-4" : "bg-transparent" }`}
+        >
             <div className="font-livia text-xl drop-shadow-lg text-red-300 pt-3 lg:pt-0">
                 <em>LiviaCodes</em>
             </div>

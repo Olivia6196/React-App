@@ -32,7 +32,7 @@ export default function Project() {
           spaceBetween={30}
           slidesPerView={1} // mobile default
           pagination={{ clickable: true }}
-          autoplay={{ delay: 4000, disableOnInteraction: false }}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
           breakpoints={{
             350: { slidesPerView: 1, navigation: false,},
             768: { slidesPerView: 2, navigation: false, },
@@ -43,7 +43,7 @@ export default function Project() {
           {projects.map((project, index) => (
             <SwiperSlide key={index}>
               <div className="border-2 border-white p-6 rounded-xl bg-white shadow-[0_0_35px_pink] flex flex-col items-center">
-                <img src={project.img} alt={project.title} className="w-[20vw] h-[14vw] rounded-lg object-cover" />
+                <img src={project.img} alt={project.title} className="md:w-[20vw] md:h-[14vw] rounded-lg object-cover" />
                 <h3 className="text-xl font-semibold pt-4">{project.title}</h3>
                 <a
                   href={project.link}
