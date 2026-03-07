@@ -27,7 +27,7 @@ export default function Navbar(){
         <>
         <nav className={`flex justify-center gap-[52vw] md:gap-[70vw] lg:gap-[35vw] p-3 fixed top-0 w-full z-20  transition-all duration-300 ${scrolled ? "bg-white shadow-lg pt-4" : "bg-transparent" }`}
         >
-            <div className="font-livia text-[1.3rem] drop-shadow-[0_0_1px_gray] text-red-300 pt-3 lg:pt-0">
+            <div className="font-livia text-[1.3rem] drop-shadow-[0_0_1px_gray] text-red-300 pt-1.5 lg:pt-0">
                 <em>LiviaCodes</em>
             </div>
             <ul className="px-6 hidden lg:flex text-base">
