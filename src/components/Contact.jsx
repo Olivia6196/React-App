@@ -16,7 +16,7 @@ const socials = [
 },
   { icon: FaInstagram , 
     link: "https://www.instagram.com/olivia_codes", 
-    style: " text-white text-[2.6rem] md:text-4xl bg-gradient-to-tr from-yellow-300 via-red-400 to-purple-400 pt-[1.7vw] md:pt-[0.4vw] pb-1 px-2 rounded-xl mr-1" 
+    style: " text-white text-[2.45rem] md:text-4xl bg-gradient-to-tr from-yellow-300 via-red-400 to-purple-400 pt-[1.6vw] md:pt-[0.4vw] pb-1 px-2 rounded-xl mr-1" 
 },
   { icon: FaFacebookF , 
     link: "https://www.facebook.com/abel.olivi.5", 
