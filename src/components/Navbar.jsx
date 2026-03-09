@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 
-const navItems= [
-    { label: "Home", href:"#"},
-    { label: "About", href:"#About"},
-    { label: "Skill" , href: "#Skill"},
-    { label: "Services", href:"#Services"},
-    { label: "Projects", href:"#Projects"},
-    { label: "Contact", href:"#Contact"},
+const navItems = [
+  { label: "Home", path: "/" },
+  { label: "About", path: "/about" },
+  { label: "Skill", path: "/skill" },
+  { label: "Services", path: "/services" },
+  { label: "Projects", path: "/projects" },
+  { label: "Contact", path: "/contact" },
 ];
 
 export default function Navbar(){
@@ -33,13 +34,13 @@ export default function Navbar(){
             <ul className="px-6 hidden lg:flex text-base">
                {navItems.map((item) => (
             <li key={item.label}>
-                <a
-                href={item.href}
-                className="hover:bg-red-300 hover:text-white px-4 py-2 rounded-sm transition-colors duration-500"
-              >
-                {item.label}
-              </a>
-            </li>
+                <Link
+                  to={item.path}
+                  className="hover:bg-red-300 hover:text-white px-4 py-2 rounded-sm transition-colors duration-500"
+                >
+                  {item.label}
+                </Link>
+              </li>
             ))}
             </ul>
 
@@ -87,27 +88,27 @@ export default function Navbar(){
               {/* Links */}
               <nav className="flex-1 px-4 py-6 space-y-1 overflow-y-auto">
                 {navItems.map((item) => (
-                  <a
+                  <Link
                     key={item.label}
-                    href={item.href}
+                    to={item.path}
                     className="flex items-center px-4 py-3.5 text-lg font-medium text-gray-800 hover:bg-gray-100 rounded-lg transition-colors"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 ))}
               </nav>
 
               {/* Bottom buttons */}
               <div className="p-6 border-t mt-auto">
                 <div className="flex flex-col gap-4">
-                  <a
-                    href="#Contact"
+                  <Link
+                    to="/contact"
                     className="py-4 px-6 bg-red-300 text-white text-center rounded-xl font-semibold hover:bg-red-400 transition"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Get in Touch
-                  </a>
+                  </Link>
                 </div>
               </div>
                </div>

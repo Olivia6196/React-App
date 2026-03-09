@@ -1,22 +1,20 @@
-import About from "./components/About"
-import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
-import Projects from "./components/Projects"
-import Services from "./components/Services"
-import "./index.css"
-import Contact from "./components/Contact"
 import Footer from "./components/Footer"
-import Skill from "./components/Skill"
+import { Route, Routes } from "react-router-dom"
+import Home from "./routes/Home"
+import About from "./routes/About"
+import "./index.css"
+
 function App() {
   return (
     <>
-     <Navbar />
-      <Hero />
-      <About />
-      <Skill />
-      <Services />
-      <Projects />
-      <Contact />
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+
       <Footer />
     </>
   )

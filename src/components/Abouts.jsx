@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 
-export default function About(){
+export default function Abouts(){
     return(
         <>
         <section id="About" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-center pt-20">
