@@ -12,9 +12,9 @@ const skills = [
   { name: "React", icon: <FaReact /> },
   { name: "GitHub", icon: <FaGithub /> },
 ];
-const Skill = () => {
+const Skill= () => {
   return (
-    <section id="Skill" className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-center pt-20">
+    <section className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-center pt-20">
         <h2 className="text-center text-3xl font-semibold pb-6 drop-shadow-[0_0_4px_#ec4899]">My Skills</h2>
         <div className="justify-center pb-8 grid grid-cols-2 md:grid-cols-3 mx-5 md:mx-20 lg:mx-28 gap-12 lg:gap-8">
               {skills.map((skill, index) => (
