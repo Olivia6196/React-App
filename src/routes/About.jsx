@@ -1,4 +1,4 @@
-import Pink from "../assets/Pink_pics.jpg"
+import Pink from "../assets/Pink_Pics.jpg"
 
 const About = () => {
 
