@@ -9,7 +9,7 @@ const navItems = [
   { label: "Skill", path: "/skill" },
   { label: "Services", path: "/services" },
   { label: "Projects", path: "/projects" },
-  { label: "Contact", path: "/contact" },
+  { label: "Contact", path: "#contact" },
 ];
 
 export default function Navbar(){

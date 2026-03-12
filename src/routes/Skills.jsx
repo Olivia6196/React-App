@@ -5,9 +5,9 @@ const technicalSkills = [
   { name: "Next.js", level: 65 },
   { name: "Tailwind CSS", level: 90 },
   { name: "React", level: 75 },
-  { name: "Github", level: 82 },
-  { name: "Node.js", level: 55 },
   { name: "HTML", level: 99 },
+  { name: "Node.js", level: 55 },
+  { name: "Github", level: 82 },
   { name: "CSS", level: 99 },
 ];
 
@@ -104,7 +104,7 @@ export default function Skills() {
       </div>
 
       {/* Professional Skills */}
-      <h2 className="text-3xl font-semibold text-center mb-6 drop-shadow-[0_0_2px_#ec4899]">
+      <h2 className="text-3xl font-semibold text-center mb-8 drop-shadow-[0_0_2px_#ec4899]">
         Professional Skills
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
