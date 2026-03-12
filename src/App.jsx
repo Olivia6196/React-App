@@ -5,6 +5,7 @@ import Home from "./routes/Home"
 import About from "./routes/About"
 import "./index.css"
 import Contact from "./components/Contact"
+import Skills from "./routes/Skills"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/skill" element={<Skills />} />
       </Routes>
        <Contact />
       <Footer />

@@ -4,7 +4,7 @@ import { ImHeart } from "react-icons/im"
 export default function Hero(){
     return(
         <>
-        <div className="bg-[url(/background.png)] bg-cover bg-no-repeat bg-center flex flex-col lg:flex-row pt-16 lg:pt-32 gap-16 md:gap-32 lg:gap-0">
+        <div className="bg-[url(/background.png)]  bg-cover bg-no-repeat bg-center flex flex-col lg:flex-row pt-16 lg:pt-32 gap-16 md:gap-32 lg:gap-0">
             <div className="px-12 lg:px-48">
                 <h1 className="pt-20 pb-2 text-4xl lg:text-3xl font-semibold">Hi, I'm Olivia <span><ImHeart className='inline text-red-300 text-3xl align-middle animate-bounce drop-shadow-lg'/></span></h1>
                 <p className="pb-8 font-livia text-xl">The mind behind Livicodes, crafting beautiful websites.</p>
